@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="LSrW1YwQLvIt4kO-HrnK">
-    <mxGraphModel dx="617" dy="440" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="882" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,35 +19,14 @@
         <mxCell id="36ns-gekr2OUEjnFYIZS-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="KNOWLEDGE_Q&amp;amp;A" vertex="1">
           <mxGeometry height="40" width="138" x="513" y="380" as="geometry" />
         </mxCell>
-        <mxCell id="36ns-gekr2OUEjnFYIZS-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;业务层&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="610" x="108" y="540" as="geometry" />
+        <mxCell id="36ns-gekr2OUEjnFYIZS-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="数据查询通道&lt;div&gt;(DataFrame)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="125" x="190" y="545" as="geometry" />
         </mxCell>
-        <mxCell id="36ns-gekr2OUEjnFYIZS-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="意图识别" vertex="1">
-          <mxGeometry height="40" width="90" x="225" y="600" as="geometry" />
+        <mxCell id="36ns-gekr2OUEjnFYIZS-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="状态检测通道&lt;div&gt;(规则引擎)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="122" x="352" y="545" as="geometry" />
         </mxCell>
-        <mxCell id="36ns-gekr2OUEjnFYIZS-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="知识检索" vertex="1">
-          <mxGeometry height="40" width="90" x="368" y="600" as="geometry" />
-        </mxCell>
-        <mxCell id="36ns-gekr2OUEjnFYIZS-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="答案生成" vertex="1">
-          <mxGeometry height="40" width="90" x="511" y="600" as="geometry" />
-        </mxCell>
-        <mxCell id="36ns-gekr2OUEjnFYIZS-19" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="412" y="670" as="sourcePoint" />
-            <mxPoint x="412" y="750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="36ns-gekr2OUEjnFYIZS-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;业务层&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="130" width="610" x="108" y="750" as="geometry" />
-        </mxCell>
-        <mxCell id="36ns-gekr2OUEjnFYIZS-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SQLite" vertex="1">
-          <mxGeometry height="40" width="90" x="225" y="810" as="geometry" />
-        </mxCell>
-        <mxCell id="36ns-gekr2OUEjnFYIZS-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="向量知识库" vertex="1">
-          <mxGeometry height="40" width="90" x="368" y="810" as="geometry" />
-        </mxCell>
-        <mxCell id="36ns-gekr2OUEjnFYIZS-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DataFrame" vertex="1">
-          <mxGeometry height="40" width="90" x="511" y="810" as="geometry" />
+        <mxCell id="36ns-gekr2OUEjnFYIZS-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="知识问答通道&lt;div&gt;(RAG检索)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="119" x="511" y="545" as="geometry" />
         </mxCell>
         <mxCell id="36ns-gekr2OUEjnFYIZS-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DATA_QUERY" vertex="1">
           <mxGeometry height="40" width="138" x="177" y="380" as="geometry" />
@@ -66,6 +45,54 @@
             <mxPoint x="484" y="400" as="sourcePoint" />
             <mxPoint x="512" y="400" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="36ns-gekr2OUEjnFYIZS-31" edge="1" parent="1" source="36ns-gekr2OUEjnFYIZS-9" style="endArrow=classic;html=1;rounded=0;" target="36ns-gekr2OUEjnFYIZS-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="630" as="sourcePoint" />
+            <mxPoint x="470" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36ns-gekr2OUEjnFYIZS-34" edge="1" parent="1" source="36ns-gekr2OUEjnFYIZS-9" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" target="36ns-gekr2OUEjnFYIZS-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="510" as="sourcePoint" />
+            <mxPoint x="400" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36ns-gekr2OUEjnFYIZS-35" edge="1" parent="1" source="36ns-gekr2OUEjnFYIZS-9" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" target="36ns-gekr2OUEjnFYIZS-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="510" as="sourcePoint" />
+            <mxPoint x="400" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36ns-gekr2OUEjnFYIZS-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;答案生成层 (LLM)&amp;nbsp; &amp;nbsp; &amp;nbsp; D&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;eepSeek + 上下文填充&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="166" x="331" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="36ns-gekr2OUEjnFYIZS-39" edge="1" parent="1" source="36ns-gekr2OUEjnFYIZS-15" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" target="36ns-gekr2OUEjnFYIZS-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="630" as="sourcePoint" />
+            <mxPoint x="460" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36ns-gekr2OUEjnFYIZS-40" edge="1" parent="1" source="36ns-gekr2OUEjnFYIZS-17" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" target="36ns-gekr2OUEjnFYIZS-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="630" as="sourcePoint" />
+            <mxPoint x="460" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36ns-gekr2OUEjnFYIZS-41" edge="1" parent="1" source="36ns-gekr2OUEjnFYIZS-16" style="endArrow=classic;html=1;rounded=0;" target="36ns-gekr2OUEjnFYIZS-36" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="630" as="sourcePoint" />
+            <mxPoint x="460" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36ns-gekr2OUEjnFYIZS-42" edge="1" parent="1" source="36ns-gekr2OUEjnFYIZS-36" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="410" y="840" as="sourcePoint" />
+            <mxPoint x="414" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="36ns-gekr2OUEjnFYIZS-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="答案输出 + 来源引用" vertex="1">
+          <mxGeometry height="50" width="147" x="340" y="810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
