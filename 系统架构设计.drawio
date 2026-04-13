@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0">
+  <diagram name="第 1 页" id="zUxXPlKpwQtcsl9bRJs5">
+    <mxGraphModel dx="926" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;font style=&quot;&quot;&gt;展示&lt;/font&gt;层&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="610" x="109" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="首页概览" vertex="1">
+          <mxGeometry height="40" width="90" x="129" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="数据查询" vertex="1">
+          <mxGeometry height="40" width="90" x="249" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="统计分析" vertex="1">
+          <mxGeometry height="40" width="90" x="369" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="智能问答" vertex="1">
+          <mxGeometry height="40" width="90" x="489" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="报表导出" vertex="1">
+          <mxGeometry height="40" width="90" x="609" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-7" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="413.71" y="160" as="sourcePoint" />
+            <mxPoint x="413.71" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;RESTful API&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="70" x="419" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;服务层&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="610" x="109" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="api/query" vertex="1">
+          <mxGeometry height="40" width="90" x="154" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="api/stats" vertex="1">
+          <mxGeometry height="40" width="90" x="297" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="api/cop" vertex="1">
+          <mxGeometry height="40" width="90" x="440" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="api/chat" vertex="1">
+          <mxGeometry height="40" width="90" x="583" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;业务层&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="610" x="109" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="意图识别" vertex="1">
+          <mxGeometry height="40" width="90" x="226" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="知识检索" vertex="1">
+          <mxGeometry height="40" width="90" x="369" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="答案生成" vertex="1">
+          <mxGeometry height="40" width="90" x="512" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-20" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="413" y="370" as="sourcePoint" />
+            <mxPoint x="413" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="413" y="580" as="sourcePoint" />
+            <mxPoint x="413" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;业务层&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 17px;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="610" x="109" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="SQLite" vertex="1">
+          <mxGeometry height="40" width="90" x="226" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="向量知识库" vertex="1">
+          <mxGeometry height="40" width="90" x="369" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="sqlExuYomhbxfJ7k_zUD-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DataFrame" vertex="1">
+          <mxGeometry height="40" width="90" x="512" y="720" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
